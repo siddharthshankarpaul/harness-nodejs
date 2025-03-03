@@ -1,13 +1,12 @@
 # Use an official Node.js runtime as the base image.
-FROM node:16
+FROM node:22
 
 WORKDIR /app
 
-COPY src/* ./src/
 COPY package*.json ./
 RUN npm install
 
 COPY . .
 
 EXPOSE 8080
-CMD [ "node", "src/index.js" ]
+CMD [ "node", "index.js" ]
