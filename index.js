@@ -1,6 +1,6 @@
 const functions = require('@google-cloud/functions-framework');
 
-functions.http('hellowWorld',(req, res) => {
+functions.http('helloWorld',(req, res) => {
     // Access any query parameters or request body data as needed
     const name = req.query.name || req.body.name || "World";
   

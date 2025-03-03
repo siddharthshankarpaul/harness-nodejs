@@ -4,7 +4,7 @@
     "description": "Sample Node.js app for Google Cloud Functions",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+      "start": "functions-framework --target=helloWorld"
     },
     "dependencies": {
       "@google-cloud/functions-framework": "^3.1.1"
