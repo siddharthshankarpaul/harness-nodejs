@@ -1,0 +1,5 @@
+function:
+  name: helloWorldApp
+  buildConfig:
+    runtime: nodejs16
+    entryPoint: helloWorld
